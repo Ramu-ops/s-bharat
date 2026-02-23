@@ -1,0 +1,8 @@
+{
+  "name": "SkillChain Bharat",
+  "description": "A decentralized skill verification and gig marketplace for the Indian workforce, featuring blockchain-backed credentials and AI-driven job matching.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}

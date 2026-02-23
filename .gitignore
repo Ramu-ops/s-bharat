@@ -1,0 +1,33 @@
+# Ignore dependencies and builds
+node_modules/
+dist/
+build/
+.vite/
+lucide-react/
+framer-motion/
+axios/
+caniuuse-lite/
+motion-dom/
+balanced-match/
+brace-expansion/
+emoji-regex/
+foreground-child/
+gaxios/
+glob/
+google-auth-library/
+google-logging-utils/
+jackspeak/
+json5/
+minimatch/
+minimatch/
+minipass/
+motion/
+motion-utils/
+nanoid/
+node-domexception/
+node-fetch/
+# Other common ignores
+.env
+.env.local
+*.log
+*.env.*

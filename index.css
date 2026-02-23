@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Bengali:wght@400;700;900&family=Noto+Sans+Devanagari:wght@400;700;900&family=Noto+Sans+Gujarati:wght@400;700;900&family=Noto+Sans+Kannada:wght@400;700;900&family=Noto+Sans+Tamil:wght@400;700;900&family=Noto+Sans+Telugu:wght@400;700;900&display=swap');
+
+:root {
+  --font-en: 'Inter', sans-serif;
+  --font-hi: 'Noto Sans Devanagari', sans-serif;
+  --font-mr: 'Noto Sans Devanagari', sans-serif;
+  --font-bn: 'Noto Sans Bengali', sans-serif;
+  --font-te: 'Noto Sans Telugu', sans-serif;
+  --font-ta: 'Noto Sans Tamil', sans-serif;
+  --font-gu: 'Noto Sans Gujarati', sans-serif;
+  --font-kn: 'Noto Sans Kannada', sans-serif;
+}
+
+body {
+  font-family: 'Inter', 'Noto Sans Devanagari', 'Noto Sans Bengali', 'Noto Sans Telugu', 'Noto Sans Tamil', 'Noto Sans Gujarati', 'Noto Sans Kannada', sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body.lang-en { font-family: var(--font-en); }
+body.lang-hi { font-family: var(--font-hi); }
+body.lang-mr { font-family: var(--font-mr); }
+body.lang-bn { font-family: var(--font-bn); }
+body.lang-te { font-family: var(--font-te); }
+body.lang-ta { font-family: var(--font-ta); }
+body.lang-gu { font-family: var(--font-gu); }
+body.lang-kn { font-family: var(--font-kn); }
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
