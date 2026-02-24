@@ -13,7 +13,6 @@ import EmployerPortal from './components/EmployerPortal';
 import BottomNav from './components/BottomNav';
 import Header from './components/Header';
 import ManageSkills from './components/ManageSkills';
-import AiAssistant from './components/AiAssistant';
 import AppTour from './components/AppTour';
 import WorkerCommunity from './components/WorkerCommunity';
 
